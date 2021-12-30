@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Merriweather+Sans&family=Oswald&family=Pathway+Gothic+One&family=Poppins:wght@400;700&family=Ramabhadra&family=Sawarabi+Gothic&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h5{
+    color: rgb(155, 245, 155);
+    font-family: 'Days One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.sec{
+   width:100% ;
+   height: 100%;
+} 
+.carousel-inner{
+    background-size:cover;
+    background-position-y: 60%;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:20px;
+    margin-bottom: 0px;
+
+}
+h4{
+    font-size: 30px;
+    text-align:center;
+    color: rgb(214, 214, 214);
+}
+.m-left{
+    height: 700px;
+    background-color: rgb(87, 87, 87);
+    align-self: center;
+}
+.m-right{
+    height: 700px;
+    background-color: rgb(158, 158, 158);
+
+}
+.m-left h3{
+    text-align: center;
+}
+
+.m-left p{
+   color: white;
+    padding:20px;
+    text-align:justify;
+}
+.m-right p{
+   color: white;
+    padding:20px;
+    text-align:justify;
+}
+.m-right h3{
+    text-align: center;
+}
+.m-left .card{
+    color: white;
+     padding:10px;
+     margin:30px;
+ 
+    
+    
+}
+.m-right .card{
+    color: white;
+     padding:10px;
+     margin:20px;
+  
+   
+    
+}
+.card-body{
+    background-color: rgb(218, 218, 218);
+}
+.card-body p{
+    color: black;
+    justify-content: center;
+    text-align:center;
+    padding:20px;
+    justify-items: center;
+}
+.footer{
+    margin: 0px
+}
+.footer p{
+    margin:0px;
+    color: rgb(165, 165, 165);
+}
+.footer span{
+    color: aquamarine;
+}
+.card-body .spanbody{
+    color:rgb(114, 114, 114)
+}
+.imgthumb{
+    height: 250px;
+    /* min-width: 20px; */
+    max-width:100%;
+    padding-left: 20px;
+  
+    
+}
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+    .imgthumb{
+        height: 280px;
+        /* min-width: 20px; */
+        max-width:100%;
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+    .imgthumb{
+        height: 380px;
+        /* min-width: 20px; */
+        max-width:100%;
+        padding-left: 20px;
+    }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1380px) {
+    .imgthumb{
+        height: 400px;
+        /* min-width: 20px; */
+        max-width:100%;
+        padding-left: 20px;
+    }
+}
